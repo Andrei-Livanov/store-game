@@ -6,7 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const rename = require("gulp-rename");
 const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
-const ghPages = require('https://andrei-livanov.github.io/store-game');
+const ghPages = require('gulp-gh-pages');
 
 gulp.task('server', function() {
 
